@@ -1,0 +1,471 @@
+@charset "utf-8";
+.index_home {
+  overflow: hidden;
+  height: 100%;
+  font-family: PingFangTC-Regular;
+  #wrapper {
+    //margin-top: 0.88rem;
+    background: #fff;
+    .index_top {
+      height: 1.32rem;
+      img {
+        float: left;
+        margin: 0.27rem 0.2rem 0 0.3rem;
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 50%;
+      }
+      i {
+        float: left;
+        margin-top: 0.52rem;
+        height: 0.36rem;
+        line-height: 0.36rem;
+        font-size: 0.3rem;
+        color: #666;
+      }
+      div {
+        float: right;
+        margin-right: 0.32rem;
+        height: 1.32rem;
+        img {
+          float: right;
+          margin: 0.36rem 0 0 0;
+          width: 0.22rem;
+          height: 0.24rem;
+          border-radius: 0;
+        }
+        b {
+          float: right;
+          margin: 0.27rem 0 0.14rem 0.12rem;
+          height: 0.4rem;
+          line-height: 0.4rem;
+          font-size: 0.4rem;
+          color: #333;
+          font-family: PingFangTC-Semibold;
+        }
+        p {
+          clear: both;
+          height: 0.32rem;
+          line-height: 0.32rem;
+          font-size: 0.26rem;
+          color: #666;
+        }
+      }
+    }
+    .index_title {
+      display: flex;
+      align-items: center;
+      height: 0.68rem;
+      background: #F2F4F8;
+      img {
+        margin: 0 0.1rem 0 0.3rem;
+        width: 0.28rem;
+        height: 0.28rem;
+      }
+      p {
+        position: relative;
+        top: 0.04rem;
+        font-size: 0.26rem;
+        color: #666;
+      }
+    }
+    .index_banner {
+      width: 100%;
+    }
+    .index_earn {
+      display: flex;
+      align-items: center;
+      height: 0.8rem;
+      img {
+        &:first-of-type {
+          margin: 0 0.2rem 0 0.3rem;
+          width: 0.36rem;
+        }
+        &:last-of-type {
+          width: 0.38rem;
+          height: 0.38rem;
+        }
+      }
+      em {
+        width: 0.02rem;
+        height: 0.44rem;
+        background: #FF7A33;
+      }
+      p {
+        margin: 0 4.12rem 0 0.2rem;
+        height: 0.36rem;
+        line-height: 0.36rem;
+        font-size: 0.28rem;
+        color: #FF5900;
+        font-family: PingFangTC-Medium;
+      }
+    }
+    .shop_list {
+      .shop_nav {
+        display: flex;
+        margin: 0 0.3rem 0.3rem;
+        &:after {
+          border-radius: 0;
+          border: 1px solid #E4E7EC;
+        }
+        li {
+          flex: 1;
+          height: 0.56rem;
+          text-align: center;
+          font-size: 0.28rem;
+          a {
+            display: block;
+            margin-top: 0.13rem;
+            height: 0.3rem;
+            line-height: 0.36rem;
+            color: #666;
+            border-left: 0.02rem solid #E4E7EC;
+          }
+          &:first-child {
+            a {
+              border-left: none;
+            }
+          }
+          &.selected {
+            a {
+              color: #fff;
+            }
+            background: #FF5900;
+          }
+        }
+      }
+      h6 {
+        margin: 0.18rem 0 0.3rem 0.3rem;
+        height: 0.36rem;
+        line-height: 0.36rem;
+        font-size: 0.3rem;
+        color: #333;
+        span {
+          margin-left: 0.2rem;
+          font-size: 0.28rem;
+          color: #666;
+        }
+      }
+      .movie_banner {
+        position: relative;
+        img {
+          margin: 0 0 0.4rem 0.3rem;
+          width: 6.9rem;
+          height: 1.56rem;
+          background: deepskyblue;
+          &.prize_banner {
+            margin: 0 0 0.1rem 0.3rem;
+          }
+        }
+        b {
+          position: absolute;
+          top: 0.22rem;
+          left: 0.5rem;
+          font-size: 0.3rem;
+          color: #fff;
+          font-family: PingFangTC-Medium;
+          &.prize_b {
+            top: 0.24rem;
+            left: 4.94rem;
+            font-size: 0.36rem;
+            color: #333;
+            font-family: PingFangTC-Regular;
+            &.shop {
+              color: #fff;
+            }
+          }
+        }
+        div {
+          overflow: hidden;
+          position: absolute;
+          top: 0.66rem;
+          left: 0.5rem;
+          height: 0.36rem;
+
+          color: #fff;
+          font-family: PingFangTC-Regular;
+          img {
+            position: absolute;
+            margin: 0;
+            width: 0.36rem;
+            height: 0.36rem;
+            background: transparent;
+          }
+          p {
+            margin-top:0.02rem;
+            padding:0 0.14rem 0 0.4rem;
+            height:0.32rem;
+            line-height: 0.32rem;
+            font-size: 0.28rem;
+            background: #fe6818;
+            border-radius: 0.18rem;
+          }
+          &.prize_span {
+            top: 0.76rem;
+            left: 4.96rem;
+          }
+        }
+      }
+      .shops {
+        overflow: hidden;
+        margin-left: 0.3rem;
+        li {
+          float: left;
+          margin-right: 0.08rem;
+          div {
+            position: relative;
+            padding-top: 0.14rem;
+            //overflow: hidden;
+            width: 1.66rem;
+            height: 2.26rem;
+            .sold_out {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              z-index: 2;
+              width: 1.52rem;
+              height: 1.06rem;
+              margin: -0.53rem 0 0 -0.76rem;
+            }
+            &:after {
+              border: 1px solid #E0E0E0;
+            }
+            &.market {
+              margin-bottom: 0.4rem;
+              img {
+                &:first-of-type {
+                  display: block;
+                  margin: 0 0 0.1rem 0.06rem;
+                  width: 1.54rem;
+                  height: 0.78rem;
+                }
+              }
+              em {
+                float: right;
+                width: 0.22rem;
+                height: 0.24rem;
+                background: url('./money_icon.png') no-repeat;
+                background-size: cover;
+                &.sell_out {
+                  background: url('./money_icon_over.png') no-repeat;
+                  background-size: cover;
+                }
+              }
+              b {
+                display: block;
+                overflow: hidden;
+                margin-left: 0.1rem;
+                width: 1.5rem;
+                height: 0.36rem;
+                line-height: 0.36rem;
+                font-size: 0.3rem;
+                color: #333;
+              }
+              p {
+                overflow: hidden;
+                margin: 0.1rem 0 0.28rem 0.1rem;
+                width: 1.5rem;
+                height: 0.26rem;
+                line-height: 0.26rem;
+                font-size: 0.26rem;
+                color: #999;
+              }
+              span {
+                float: right;
+                margin: 0 0.1rem 0.12rem 0.06rem;
+                height: 0.28rem;
+                line-height: 0.28rem;
+                font-size: 0.24rem;
+                color: #666;
+              }
+              &.last_bottom {
+                margin-bottom: 0.94rem;
+              }
+              &.movie {
+                padding-top: 0.2rem;
+                margin-bottom: 0.1rem;
+                width: 2.24rem;
+                height: 2.44rem;
+                img {
+                  &:first-of-type {
+                    margin: 0 0 0.15rem 0.2rem;
+                    width: 1.84rem;
+                    height: 0.9rem;
+                  }
+                }
+                b, p {
+                  overflow: hidden;
+                  margin-left: 0.22rem;
+                  width: 1.92rem;
+                  height: 0.32rem;
+                  line-height: 0.32rem;
+                }
+                p {
+                  margin: 0.06rem 0 0.28rem 0.22rem;
+                }
+              }
+              &.prize {
+                padding-top: 0.1rem;
+                width: 2.25rem;
+                height: 2.52rem;
+                b {
+                  display: block;
+                  margin: 0 0 0 0.2rem;
+                  width: 1.92rem;
+                  height: 0.36rem;
+                  line-height: 0.36rem;
+                  font-size: 0.3rem;
+                  color: #333;
+                }
+                p {
+                  margin: 0 0 0.316rem 0.2rem;
+                  width: 1.92rem;
+                  height: 0.34rem;
+                  line-height: 0.34rem;
+                  font-size: 0.28rem;
+                  strong {
+                    float: left;
+                    overflow: hidden;
+                    width: 1rem;
+                    color: #FF5900;
+                  }
+                  i {
+                    float: left;
+                    color: #999;
+                  }
+                }
+                img {
+                  &.shop_img {
+                    float: none;
+                    margin: 0 0 0 0.758rem;
+                    width: 1.3rem;
+                    height: 1.42rem;
+                  }
+                }
+              }
+            }
+            &.bill {
+              height: 2.08rem;
+              background: url('./bill.png') no-repeat;
+            }
+            &.flow {
+              height: 2.08rem;
+              background: url('./flow.png') no-repeat;
+            }
+            &.bill, &.flow {
+              padding-top: 0.32rem;
+              background-size: 100%;
+              p {
+                overflow: hidden;
+                margin: 0 0 0 0.2rem;
+                width: 1.32rem;
+                height: 0.34rem;
+                line-height: 0.34rem;
+                font-size: 0.28rem;
+                color: #666;
+                &.bill_bottom {
+                  margin-bottom: 0.9rem;
+                }
+                &.flow_bottom {
+                  margin-bottom: 1.06rem;
+                }
+              }
+              b {
+                overflow: hidden;
+                float: right;
+                width: 1.04rem;
+                height: 0.6rem;
+                line-height: 0.6rem;
+                text-align: right;
+                font-size: 0.6rem;
+                color: #0084D0;
+              }
+              i {
+                float: right;
+                position: relative;
+                top: 0.26rem;
+                height: 0.32rem;
+                line-height: 0.32rem;
+                font-size: 0.26rem;
+                color: #0084D0;
+                &.bill_right {
+                  margin-right: 0.2rem;
+                }
+                &.flow_right {
+                  margin-right: 0.16rem;
+                }
+              }
+            }
+            &.e_card {
+              padding-top: 0.2rem;
+              width: 2.24rem;
+              height: 2.42rem;
+              img {
+                &:first-of-type {
+                  margin: 0 0 0 0.04rem;
+                  width: 2.17rem;
+                  height: 1.18rem;
+                }
+              }
+              b {
+                overflow: hidden;
+                margin-left: 0.22rem;
+                width: 1.9rem;
+              }
+              p {
+                overflow: hidden;
+                margin: 0.02rem 0 0.14rem 0.22rem;
+                width: 1.92rem;
+                height: 0.32rem;
+                line-height: 0.32rem;
+              }
+            }
+            &.silk_bag {
+              padding-top: 0.1rem;
+              width: 2.24rem;
+              height: 2.66rem;
+              b {
+                width: 1.94rem;
+              }
+              img {
+                &:first-of-type {
+                  margin: 0 0 0.112rem 0.1rem;
+                  width: 2.04rem;
+                  height: 1.148rem;
+                }
+              }
+              p {
+                margin: 0.04rem 0 0.28rem 0.1rem;
+                height: 0.32rem;
+                line-height: 0.32rem;
+              }
+            }
+          }
+          .price_icon {
+            float: left;
+            margin: 0.16rem 0.06rem 0.44rem 0.2rem;
+            width: 0.22rem;
+            height: 0.24rem;
+            background: url('./money_icon.png') no-repeat;
+            background-size: cover;
+            &.last_bottom {
+              margin-bottom: 0.94rem;
+            }
+            &.sell_out {
+              background: url('./money_icon_over.png') no-repeat;
+              background-size: cover;
+            }
+          }
+          .price {
+            float: left;
+            margin-top: 0.11rem;
+            height: 0.34rem;
+            line-height: 0.34rem;
+            font-size: 0.28rem;
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+}
