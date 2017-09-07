@@ -1,7 +1,7 @@
 // 通过import引入相应的组件和css
-//import Vue from 'vue';
-//import VueRouter from 'vue-router';
-//import VueResource from 'vue-resource';
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import VueResource from 'vue-resource';
 //import VueTouch from 'vue-touch';
 import VueLazyload  from 'vue-lazyload';
 import App from './App';
@@ -47,8 +47,8 @@ import travel from 'components/activity/travel';
 
 import './common/sass/index.scss';
 
-//Vue.use(VueRouter); // 装入vue-router插件
-//Vue.use(VueResource);
+Vue.use(VueRouter); // 装入vue-router插件
+Vue.use(VueResource);
 Vue.use(VueLazyload, {
   loading: '../static/images/default.png',
   try: 3 // default 1
